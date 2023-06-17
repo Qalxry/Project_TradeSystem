@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\system\init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_client_linux64\DataCollect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_client_win32\DataCollect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_client_win64\DataCollect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_linux64\ThostFtdcMdApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_linux64\ThostFtdcTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_linux64\ThostFtdcUserApiDataType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_linux64\ThostFtdcUserApiStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win32\ThostFtdcMdApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win32\ThostFtdcTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win32\ThostFtdcUserApiDataType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win32\ThostFtdcUserApiStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcMdApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcTraderApi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcUserApiDataType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcUserApiStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\func\func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\output\output.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stategy\demo_MA.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\struct\struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\run.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\func\func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\output\output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\struct\struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\api_wrapper\api_wrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

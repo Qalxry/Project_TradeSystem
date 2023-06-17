@@ -1,0 +1,15 @@
+# 忽略所有的日志文件
+.log
+
+# 忽略所有的编译输出文件夹
+/packages/
+/demo/
+/TradeSystem/.vs/
+/TradeSystem/x64
+/TradeSystem/lib/.source/
+
+# 忽略特定的文件或文件夹
+
+
+# 忽略以 .tmp 扩展名结尾的文件
+.tmp
