@@ -78,6 +78,12 @@
     <ClInclude Include="src\test.cpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\backtest\backtest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\account\account.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\run.cpp">
@@ -96,6 +102,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\api_wrapper\api_wrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backtest\backtest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\account\account.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -30,7 +30,7 @@ int modeSelect() {
     cin >> mode;
     while (mode != 1 && mode != 2 && mode != 3) {
         cout << "ÊäÈë´íÎó£¬ÇëÖØÐÂÊäÈë" << endl;
-        // ·ÀÖ¹cinÊäÈë´íÎóºóÏÝÈëËÀÑ­»·
+        // ·ÀÖ¹ cin ÊäÈë´íÎóºóÏÝÈëËÀÑ­»·
         if (cin.fail()) {
             cin.clear();
             cin.ignore(1024, '\n');

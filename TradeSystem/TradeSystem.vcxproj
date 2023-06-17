@@ -65,11 +65,12 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="config\TradeSystem-debug64.props" />
+    <Import Project=".vs_config\TradeSystem-debug64.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="config\TradeSystem-release64.props" />
+    <Import Project=".vs_config\TradeSystem-release64.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -138,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\account\account.h" />
     <ClInclude Include="src\api\ctp_client_linux64\DataCollect.h" />
     <ClInclude Include="src\api\ctp_client_win32\DataCollect.h" />
     <ClInclude Include="src\api\ctp_client_win64\DataCollect.h" />
@@ -153,6 +155,7 @@
     <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcTraderApi.h" />
     <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcUserApiDataType.h" />
     <ClInclude Include="src\api\ctp_traderapi_win64\ThostFtdcUserApiStruct.h" />
+    <ClInclude Include="src\backtest\backtest.h" />
     <ClInclude Include="src\func\func.h" />
     <ClInclude Include="src\output\output.h" />
     <ClInclude Include="src\stategy\demo_MA.hpp" />
@@ -161,7 +164,9 @@
     <ClInclude Include="src\test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\account\account.cpp" />
     <ClCompile Include="src\api_wrapper\api_wrapper.cpp" />
+    <ClCompile Include="src\backtest\backtest.cpp" />
     <ClCompile Include="src\func\func.cpp" />
     <ClCompile Include="src\output\output.cpp" />
     <ClCompile Include="src\run.cpp" />
