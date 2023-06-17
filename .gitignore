@@ -2,6 +2,7 @@
 .log
 
 # 忽略所有的编译输出文件夹
+/.vs/
 /packages/
 /demo/
 /TradeSystem/.vs/
